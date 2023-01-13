@@ -16,11 +16,15 @@
       object-fit:cover;
     }
 
+    .banner {
+      display:flex;
+      justify-content: center;
+    }
     .thumbnail {
       width: 48px;
       height: 48px;
-      border-radius: 12px;
-      object-fit: 48px;
+      border-radius: 20px;
+      object-fit: cover;
     }
 
     body {
@@ -29,31 +33,46 @@
     
     .name {
       color:#00214d;
+      display:flex;
+      justify-content: center;
     }
 
     .social-icons a {
       color: #f9bc60;
       text-decoration:none;
+      display:flex;
+      justify-content:center;
     }
 
     .link {
       background-color: #f2f7f5;
       display:flex;
       align-items:center;
+      padding:20px;
     }
 
     .link a  {
       color:#00214d;
       text-decoration: none;
+      text-align:center;
+      flex-grow: 1 ;
     }
 
+    .email {
+      display:flex;
+      justify-content:center;
+    } 
     .items{
       display:flex;
       flex-direction:column;
-      gap: 30px;
-      max-width:1000px;
+      gap: 20px;
+      max-width:640px;
+      flex-grow:1;
     }
 
+    *{
+      border:thin red solid
+    }
 
    </style>
    
